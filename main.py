@@ -26,7 +26,7 @@ if auth.status_code == 200:
     token = auth.text
 
 while True:
-    print('Чтобы поменять язык - введите !')
+    print('Что бы поменять язык - введите !')
     print(lstroke)
     word = input('Введите слово: ')
     if word == '!':
